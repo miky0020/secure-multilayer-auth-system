@@ -16,6 +16,8 @@ A complete multi-layer SSH security framework for Ubuntu servers.
 | `scripts/ssh_dashboard.sh` | Terminal analytics dashboard |
 | `scripts/ssh_logger.py` | Logs all SSH login events |
 | `scripts/ssh_telegram_alert.sh` | Sends Telegram alerts on login |
+## System Architecture
 
+![Architecture](screenshots/architecture.png)
 ## Author
 **Mikhaynu Marma** — [@miky0020](https://github.com/miky0020)
