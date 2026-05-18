@@ -1,15 +1,24 @@
-## Project Objective
-To enhance Ubuntu SSH login security using multi-layer authentication.
+# 🔐 Secure SSH: 2FA / Multi-layer Ubuntu Authentication & Intrusion Detection
 
-## Security Layers
-- Password Authentication
-- SSH Key Authentication
-- Google Authenticator OTP
-- Intrusion Detection
-- Brute Force Monitoring
-- Alert Notification System
+A complete multi-layer SSH security framework for Ubuntu servers.
 
-## Installation
-```bash
-sudo apt update
-sudo apt install openssh-server libpam-google-authenticator
+## Features
+- ✅ SSH hardening (key-only auth, no root login)
+- ✅ Google Authenticator 2FA (TOTP)
+- ✅ Fail2Ban brute force protection
+- ✅ Telegram real-time login alerts
+- ✅ Login event logger (Python)
+- ✅ Analytics dashboard (terminal)
+
+## Scripts
+| File | Purpose |
+|---|---|
+| `scripts/ssh_dashboard.sh` | Terminal analytics dashboard |
+| `scripts/ssh_logger.py` | Logs all SSH login events |
+| `scripts/ssh_telegram_alert.sh` | Sends Telegram alerts on login |
+
+## Setup
+See `docs/INSTALL.md` for full installation guide.
+
+## Author
+**Mikhaynu Marma** — [@miky0020](https://github.com/miky0020)
