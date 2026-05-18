@@ -17,8 +17,5 @@ A complete multi-layer SSH security framework for Ubuntu servers.
 | `scripts/ssh_logger.py` | Logs all SSH login events |
 | `scripts/ssh_telegram_alert.sh` | Sends Telegram alerts on login |
 
-## Setup
-See `docs/INSTALL.md` for full installation guide.
-
 ## Author
 **Mikhaynu Marma** — [@miky0020](https://github.com/miky0020)
