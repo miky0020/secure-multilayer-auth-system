@@ -1,15 +1,15 @@
-# Secure SSH: 2FA/Multi-layer Ubuntu SSH Authentication & Intrusion Detection System
+## Project Objective
+To enhance Ubuntu SSH login security using multi-layer authentication.
 
-## Features
-- SSH Two-Factor Authentication
-- OTP Verification
-- Multi-layer Security
+## Security Layers
+- Password Authentication
+- SSH Key Authentication
+- Google Authenticator OTP
 - Intrusion Detection
-- Brute Force Prevention
+- Brute Force Monitoring
+- Alert Notification System
 
-## Technologies
-- Ubuntu
-- OpenSSH
-- Google Authenticator
-- Fail2Ban
-- Bash Scripting
+## Installation
+```bash
+sudo apt update
+sudo apt install openssh-server libpam-google-authenticator
