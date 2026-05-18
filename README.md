@@ -1,7 +1,17 @@
 # 🔐 SecureSSH — Multi-Layer Ubuntu Authentication & Intrusion Detection Framework
 
-A production-grade, defense-in-depth SSH security framework for Ubuntu servers.
 
+![License](https://img.shields.io/badge/license-MIT-green)
+![Platform](https://img.shields.io/badge/platform-Ubuntu-orange)
+![Security](https://img.shields.io/badge/security-hardened-red)
+![Python](https://img.shields.io/badge/python-3.8+-blue)
+![Bash](https://img.shields.io/badge/shell-bash-lightgrey)
+![2FA](https://img.shields.io/badge/2FA-enabled-brightgreen)
+![Fail2Ban](https://img.shields.io/badge/Fail2Ban-active-red)
+![Telegram](https://img.shields.io/badge/alerts-Telegram-blue)
+
+
+A production-grade, defense-in-depth SSH security framework for Ubuntu servers. Combines cryptographic key enforcement, time-based two-factor authentication, intelligent brute-force mitigation, real-time alerting, and a live analytics dashboard into a single cohesive system.
 ---
 
 ## Table of Contents
