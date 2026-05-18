@@ -38,10 +38,12 @@ SecureSSH is a comprehensive, layered security framework for Ubuntu server admin
 | **Terminal Analytics Dashboard** | Live, color-coded shell dashboard showing login history and threat summary |
 
 ---
-##System Architecture
+## System Architecture
 
-![Architecture Diagram](screenshots/architecture.png)
+![Architecture Diagram](architecture.png)
+
 ---
+
 ## Prerequisites
 
 - Ubuntu 20.04 LTS or later (22.04/24.04 recommended)
